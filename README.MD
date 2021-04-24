@@ -1,1 +1,1 @@
-Hello welcome to my readme file.
+Hello welcome to my frequency counter app enjoy.
