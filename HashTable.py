@@ -32,7 +32,6 @@ class HashTable:
 
     def insert(self, key, value):
         index = self.hash_func(key)
-        print(self.arr[index], index)
         found_item = self.arr[index].find(lambda item: item[0] == key)
         new_item = (key, value)
         if found_item == True:
